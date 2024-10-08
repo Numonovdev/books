@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  box-sizing: border-box;
+  background: rgb(22,212,156);
+  background: linear-gradient(to right, rgba(22,212,156,1) 7%, rgba(236,21,220,1) 75%);
+}
+#root{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
